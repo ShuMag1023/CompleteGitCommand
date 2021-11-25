@@ -1,0 +1,22 @@
+create user in GIT
+git config --global user.name "Shubham Dhiman"
+git config --global user.email 10shubhamdhiman@gmail.com
+git config --list (Check account create or not)
+git remote add origin ............. (Add github repo add) in HTTPS
+git config --list (here you again check repo add or not)
+
+
+Create file
+touch file.txt
+
+Add to staging area
+git add file-name
+
+
+Commit file
+git commit -m "give the msg in double quotes"
+
+Push the file on GitHub account (Central Repo)
+git push origin master ........ (Given the add of github repo, where you want to store your code)
+
+
